@@ -2,10 +2,40 @@
   border-radius: 50% !important;
   font-size: 18px !important;
 }
+.mail-icon {
+  box-shadow: -1px 0px 7px 3px #2f8fcf6b;
+  border-radius: 5px;
+}
 .badge-primary {
   color: #fff !important;
   background-color: #72aeee !important;
 }
-.search-input {
+.input-area {
   width: 35%;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  margin-top: 15px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
 }

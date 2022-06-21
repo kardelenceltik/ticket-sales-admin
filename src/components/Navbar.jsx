@@ -1,15 +1,13 @@
 import React from "react";
 import { FiMail } from "react-icons/fi";
-import { AiOutlineSearch } from "react-icons/ai";
-
 import { TbLetterK } from "react-icons/tb";
 
 const Navbar2 = () => {
   return (
-    <div className="container">
-      <nav className="navbar navbar-expand-lg  bg-white mt-3">
+    <div className="">
+      <nav className="navbar  navbar-expand-lg bg-light fixed-top">
         <a className="navbar-brand d-lg-none" href="#">
-          Navbar
+          Wallids
         </a>
 
         <button
@@ -31,12 +29,15 @@ const Navbar2 = () => {
           <h2 className="nav-link active" href="#">
             wallids<span className="sr-only">(current)</span>
           </h2>
-          <div className="search-input">
-            <input
-              className="form-control "
-              type="text"
-              placeholder={<AiOutlineSearch /> + "All apps search"}
-            />
+          <div className="input-area">
+            <div className="form-group has-search">
+              <span className="fa fa-search form-control-feedback"></span>
+              <input
+                type="text"
+                className="form-control"
+                placeholder="Search"
+              />
+            </div>
           </div>
 
           <ul className="navbar-nav  mr-2">

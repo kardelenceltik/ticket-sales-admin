@@ -1,18 +1,5 @@
 import React from "react";
-import axios from "axios";
-import { useEffect, useState } from "react";
-const Table = () => {
-  const [activity, setActivity] = useState([]);
-
-  const getActivityHandler = () => {
-    axios.get("http://localhost:7070/activity/get").then((response) => {
-      console.log(response);
-      setActivity(response.data);
-    });
-  };
-  useEffect(() => {
-    getActivityHandler();
-  }, []);
+const Table = ({ activities }) => {
   return (
     <div>
       <table className="table">
@@ -25,7 +12,7 @@ const Table = () => {
           </tr>
         </thead>
         <tbody>
-          {activity.map((item) => {
+          {activities.map((item) => {
             return (
               <tr key={item.name}>
                 <td>{item.name}</td>
