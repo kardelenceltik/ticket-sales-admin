@@ -1,4 +1,4 @@
-![ticket-sales-admin](https://raw.githubusercontent.com/kardelenceltik/Pharmacy-app-react/main/Pharmacy-app-react/src/img/pharmacy_img.png](https://raw.githubusercontent.com/kardelenceltik/ticket-sales-admin/master/src/components/Img/Screen%20Shot%202022-06-21%20at%2020.49.43.png?token=GHSAT0AAAAAABTUQJGNQ5GJZAI7C6MCX7QCYVSA35Q)
+![ticket-sales-admin](https://raw.githubusercontent.com/kardelenceltik/ticket-sales-admin/master/src/components/Img/Screen%20Shot%202022-06-21%20at%2020.49.43.png?token=GHSAT0AAAAAABTUQJGN3UDTDFOLDYINJNQ4YVSBBBQ)
 
 # Getting Started with Create React App
 
